@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scrissors!</title>
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="index.css" />
     <script src="index.js"></script>
-</head>
-<body>
-    <button>👊</button>
-    <button>🖐️</button>
-    <button>✌️</button>
+  </head>
+  <body>
+    <h1>You vs Computer</h1>
+    <br />
+    <br />
+    <br />
 
-    <h1>👊 vs 🖐️</h1>
-    <h2>Has ganado / Has perdido</h2>
-</body>
+    <button onclick="play('👊')">👊</button>
+    <button onclick="play('🖐️')">🖐️</button>
+    <button onclick="play('✌️')">✌️</button>
+
+    <h1 id="resultPlay">👊 vs 🖐️</h1>
+    <h2 id="resultText">You Won / You Lost</h2>
+
+    <script src="index.js"></script>
+  </body>
 </html>
