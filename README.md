@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors Game
 
-<a href="https://imgur.com/zLn1JIH"><img src="https://i.imgur.com/zLn1JIH.png" title="source: imgur.com" /></a>
+<img src="https://i.imgur.com/zLn1JIH.png" title="source: imgur.com" />
 
 Welcome to the Rock, Paper, Scissors Game application repository! This project provides a simple web-based game of Rock, Paper, Scissors that you can play in your browser. This README will guide you through the setup process and provide information about the project.
 
